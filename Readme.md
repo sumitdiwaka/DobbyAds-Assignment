@@ -6,8 +6,8 @@
 
 ## 🔗 Live Demo
 
-- **Frontend:** `https://your-frontend-url.vercel.app`
-- **Backend API:** `https://your-backend-url.railway.app`
+- **Frontend:** `https://dobby-ads-assignment-seven.vercel.app`
+- **Backend API:** `https://dobbyads-assignment-18dc.onrender.com`
 
 **Test Credentials:**
 - Email: `test@dobbyads.com`
