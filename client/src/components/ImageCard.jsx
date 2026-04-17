@@ -16,7 +16,8 @@ export default function ImageCard({ image, onDelete }) {
 
   // Fix: use full backend URL so Vite proxy serves it correctly
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-const imgUrl = `${API_URL}/uploads/${image.filename}`;
+const cleanBaseUrl = API_URL.replace('/api', ''); 
+const imgUrl = `${cleanBaseUrl}/uploads/${image.filename}`;
 
   return (
     <>
